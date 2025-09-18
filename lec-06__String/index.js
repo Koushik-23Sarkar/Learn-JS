@@ -55,8 +55,8 @@ let comment = "Rohit Bhaiya bhut bade badmash hai. \\nWo bhut gande insaan hai."
 console.log(comment);
 
 let special = "Rohit";
-console.log(special[4]);
-console.log(special.charAt(3));
+console.log(special[4]);    //t     //It starts from 0
+console.log(special.charAt(3));     //i     //It starts from 0
 
 
 // to lowercase
@@ -67,10 +67,10 @@ console.log(strtemp);
 console.log(special);
 
 let hero = "Hello Coder Army Coder";
-console.log(hero.indexOf("Coder"));
-console.log(hero.lastIndexOf("Coder"));
-console.log(hero.indexOf("coder"));
-console.log(hero.includes("Coder"));
+console.log(hero.indexOf("Coder"));     //Its gives you starting Index
+console.log(hero.lastIndexOf("Coder")); //17
+console.log(hero.indexOf("coder")); //-1    <--- returns -1 , if that string is not present in that sentence.
+console.log(hero.includes("Coder"));//true  <--- .include() , function returns Boolean value.
                //0123456  
 let newstring = "HeloDon";
             //  -7-6-5-4-3 -2-1 
